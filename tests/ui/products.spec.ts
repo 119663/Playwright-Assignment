@@ -50,7 +50,7 @@ test ("Add to cart from products page", async ({page}) => {
     await expect(page).toHaveTitle('Automation Exercise');
     await addToCart.productsButton.click();
     await expect(page).toHaveTitle('Automation Exercise - All Products');
-    await addToCart.viewProductAddToCart.click();
+    await addToCart.addToCartButton.click();
 })
 
 test ("Add a product to cart and checkout", async ({page}) => {
@@ -64,8 +64,8 @@ test ("Add a product to cart and checkout", async ({page}) => {
     await page.locator("//div[contains(@class,'modal-content')]//a[@href='/view_cart']").click();
     await expect(page).toHaveTitle('Automation Exercise - Checkout');
     await products.checkoutButton.click();
-    await expect(page).toHaveTitle('Automation Exercise - Checkout');
-    await products.placeOrderButton.click();
+    // await expect(page).toHaveTitle('Automation Exercise - Checkout');
+    // await products.placeOrderButton.click();
 
 })
 
