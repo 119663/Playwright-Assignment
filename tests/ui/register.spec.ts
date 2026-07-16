@@ -47,11 +47,6 @@ test("Navigate to signup page and register a new user", async ({page}) => {
     //delete account
     const deleteAccountPage = new DeleteAccountPage(page);
     await deleteAccountPage.deleteAccount();
-
-    // await expect(page).toHaveTitle('Account Deleted!');
-
-    // await expect(deleteAccountPage.deleteContinueButton).toBeVisible();
-    // await expect(deleteAccountPage.deleteContinueButton).toBeEnabled();
     await deleteAccountPage.deleteContinueButton.click();
 
     await expect(page).toHaveTitle('Automation Exercise');
