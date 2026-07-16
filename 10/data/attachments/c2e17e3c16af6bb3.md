@@ -1,0 +1,204 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: ui/products.spec.ts >> Add to cart from product details page
+- Location: tests/ui/products.spec.ts:33:5
+
+# Error details
+
+```
+Test timeout of 80000ms exceeded.
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "Website for automation practice" [ref=e8]:
+        - /url: /
+        - img "Website for automation practice" [ref=e9]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link " Home" [ref=e14]:
+            - /url: /
+            - generic [ref=e15]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link " Products" [ref=e17]:
+            - /url: /products
+            - generic [ref=e18]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link " Cart" [ref=e20]:
+            - /url: /view_cart
+            - generic [ref=e21]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link " Signup / Login" [ref=e23]:
+            - /url: /login
+            - generic [ref=e24]: 
+            - text: Signup / Login
+        - listitem [ref=e25]:
+          - link " Test Cases" [ref=e26]:
+            - /url: /test_cases
+            - generic [ref=e27]: 
+            - text: Test Cases
+        - listitem [ref=e28]:
+          - link " API Testing" [ref=e29]:
+            - /url: /api_list
+            - generic [ref=e30]: 
+            - text: API Testing
+        - listitem [ref=e31]:
+          - link " Video Tutorials" [ref=e32]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e33]: 
+            - text: Video Tutorials
+        - listitem [ref=e34]:
+          - link " Contact us" [ref=e35]:
+            - /url: /contact_us
+            - generic [ref=e36]: 
+            - text: Contact us
+  - generic [ref=e39]:
+    - generic [ref=e41]:
+      - heading "Category" [level=2] [ref=e42]
+      - generic [ref=e43]:
+        - heading " Women" [level=4] [ref=e46]:
+          - link " Women" [ref=e47]:
+            - /url: "#Women"
+            - generic [ref=e49]: 
+            - text: Women
+        - heading " Men" [level=4] [ref=e52]:
+          - link " Men" [ref=e53]:
+            - /url: "#Men"
+            - generic [ref=e55]: 
+            - text: Men
+        - heading " Kids" [level=4] [ref=e58]:
+          - link " Kids" [ref=e59]:
+            - /url: "#Kids"
+            - generic [ref=e61]: 
+            - text: Kids
+      - generic [ref=e62]:
+        - heading "Brands" [level=2] [ref=e63]
+        - list [ref=e65]:
+          - listitem [ref=e66]:
+            - link "(6) Polo" [ref=e67]:
+              - /url: /brand_products/Polo
+              - generic [ref=e68]: (6)
+              - text: Polo
+          - listitem [ref=e69]:
+            - link "(5) H&M" [ref=e70]:
+              - /url: /brand_products/H&M
+              - generic [ref=e71]: (5)
+              - text: H&M
+          - listitem [ref=e72]:
+            - link "(5) Madame" [ref=e73]:
+              - /url: /brand_products/Madame
+              - generic [ref=e74]: (5)
+              - text: Madame
+          - listitem [ref=e75]:
+            - link "(3) Mast & Harbour" [ref=e76]:
+              - /url: /brand_products/Mast & Harbour
+              - generic [ref=e77]: (3)
+              - text: Mast & Harbour
+          - listitem [ref=e78]:
+            - link "(4) Babyhug" [ref=e79]:
+              - /url: /brand_products/Babyhug
+              - generic [ref=e80]: (4)
+              - text: Babyhug
+          - listitem [ref=e81]:
+            - link "(3) Allen Solly Junior" [ref=e82]:
+              - /url: /brand_products/Allen Solly Junior
+              - generic [ref=e83]: (3)
+              - text: Allen Solly Junior
+          - listitem [ref=e84]:
+            - link "(3) Kookie Kids" [ref=e85]:
+              - /url: /brand_products/Kookie Kids
+              - generic [ref=e86]: (3)
+              - text: Kookie Kids
+          - listitem [ref=e87]:
+            - link "(5) Biba" [ref=e88]:
+              - /url: /brand_products/Biba
+              - generic [ref=e89]: (5)
+              - text: Biba
+    - generic [ref=e90]:
+      - generic [ref=e91]:
+        - img "ecommerce website products" [ref=e94]
+        - generic [ref=e96]:
+          - img "ecommerce website products" [ref=e97]
+          - heading "Blue Top" [level=2] [ref=e98]
+          - paragraph [ref=e99]:
+            - text: "Category: Women > Tops"
+            - link "People & Society" [ref=e100] [cursor=pointer]:
+              - img [ref=e102]
+              - text: People & Society
+          - img "ecommerce website products" [ref=e104]
+          - generic [ref=e105]:
+            - generic [ref=e106]: Rs. 500
+            - generic [ref=e107]: "Quantity:"
+            - spinbutton [ref=e108]: "1"
+            - button " Add to cart" [ref=e109] [cursor=pointer]:
+              - generic [ref=e110]: 
+              - text: Add to cart
+          - paragraph [ref=e111]: "Availability: In Stock"
+          - paragraph [ref=e112]: "Condition: New"
+          - paragraph [ref=e113]:
+            - text: "Brand:"
+            - link "Polo" [ref=e114] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e115]
+              - text: Polo
+      - generic [ref=e117]:
+        - list [ref=e119]:
+          - listitem [ref=e120]:
+            - link "Write Your Review" [ref=e121]:
+              - /url: "#reviews"
+        - generic [ref=e123]:
+          - generic [ref=e124]:
+            - textbox "Your Name" [ref=e125]
+            - textbox "Email Address" [ref=e126]
+          - textbox "Add Review Here!" [ref=e127]
+          - button "Submit" [ref=e128] [cursor=pointer]
+  - contentinfo [ref=e129]:
+    - generic [ref=e134]:
+      - heading "Subscription" [level=2] [ref=e135]
+      - generic [ref=e136]:
+        - textbox "Your email address" [ref=e137]
+        - button "" [ref=e138] [cursor=pointer]:
+          - generic [ref=e139]: 
+        - paragraph [ref=e140]:
+          - text: Get the most recent updates from
+          - text: our site and be updated your self...
+    - paragraph [ref=e144]: Copyright © 2021 All rights reserved
+  - text: 
+  - insertion [ref=e145]:
+    - iframe [ref=e148]:
+      - iframe [ref=f42e1]:
+        - generic [active]:
+          - insertion [ref=f43e2]:
+            - generic [ref=f43e3]:
+              - link "Click Here" [ref=f43e4]:
+                - /url: https://googleads.g.doubleclick.net/dbm/clk?sa=L&ai=CaFz13u5UauzUDLmy5vgProXpyQ7cqtjogQHL2siF3BSeuIi2gwMQASD9tJ6VAWCVi-YEoAGex5rPPsgBCagDAcgDmwSqBIwCT9DiV7yjrxwRceT9pj6PVsrxXP-n_Z8WN5vG-jUPp7MOhUo443K7Y4066MS-U8QhO91O3YwWNDf-1uB6qXn8WJeDqoXWkP7gFjVvuc-bkTjR1Gz-Kn31_8p6s9tcyuRPW8UkfYFCZvuSWcUyT-GzXrJizuiX_pYUNElKzlyrIAWRI8m_yEKPpCqxc8-YtEcFnOolLBw5xUG9QHw8J0Ba6dgumJ93xqezp_Eie39tTSswkyRqs6oOeXD7zh8Isg3jxd87RHufS1TJTEkMiN9Jp4uq95FQMVtSQGqWfvR0gENJgrUACEGgUM58k76DF5Lgh5QCj9CSKfPwflEQsQfTOFIVI1aYvK3GJ4-Tl8AEkvyxlb0F4AQDiAWi0PrXVZAGAaAGTYAHnv_qrhmoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQKoB-fXsQLYBwDSCDMIgGEQARifAzIIioKAgICAgAg6D4BAgMCAgICAqIACqIOAEEi9_cE6WJLj187nz5UDYAGACgGYCwHICwGADAGqDQJLReoNEwi5wdjO58-VAxU5mRkJHa5COunwDQGIDgmwE6nBrCPQEwDYEwrYFAHQFQHKFgIKAPgWAYAXAbIXBBgCUAboFwSyGAkSAp1jGE0iAQDQGQHYGQE&ae=1&num=1&cid=CAQShwIAEQoqgRB760OR4ci3_x3MhDdRrL47XDVJ0eZ8f27XiJcSn9oEmFE1Rmwtvfb530-8kOjE0AOOdrnrTwOAghk1KeIo4_0VvQZ7g9-Z6uklev46V1nwQfpierXg7M5uR6FMR4cqzKDETZ8TT60IhHaXWQQCAAZP6pnyNIUXtG62TQUwZz_GPoycy-zEcMpvRcZw7DJsrMcWJ6rAGMXHV0xL6EVYqSvE4kVa1TpezkwQKnkUY_894jHZN_bxT_gYI2nZAWNaHmu5WzDVMHoBT1R0cJl2NE0zA1dOgsAkm9RPLNeBUTaqQGKE0d_BX4kMRxZ3-bz0aqYKl5RuwkFF1Pd1ntSbE1ZHmBgB&sig=AOD64_0-9-sBHt7iPaMnx47_jsc8Mtt3Lg&client=ca-pub-1677597403311019&dbm_c=AKAmf-CRhq5MKcO7FaHxiZay0bn-Vv6YAdNjNgakf8mzTw55HVoKBrOZpnErcpYIfCcz5crkMPHu0yF9C8Dvk6RU_uV1LfMXtwrk74UnwPMpMFeyMvnZ1ygrM2SFDoFHA7wJdYNNYkK6q_ELdNa9LRZMZM_b2NHGpm1Nyx6dWadr_u7rzrj8dT7KNMMQGZXdd6ULp2Ozcqbr-thhjOMGC_CbknyJ9sCJAfVIah0FZHBtrRGKLe46Walt8B_EKMPvrVur2Po3VauOt1DToiYLThSx_dUQgImXGkJlrWSEAKIUULvEeUTzfNvvDvdUACQgUs6xIg84j5rw&cry=1&dbm_d=AKAmf-BTr7fzYRnEKCMM43B3JnGlOXJ6h2Kf2NdjUsS2x-ztpTVn5QCsXlx-hzPre2-7pqsdZXbotsZ70eG1bMcNKw4VxyNUuDnqHCJJPGgKr7QohvJkizCBDTL6KE2ta7bYoScX3T2aizZjQgo2MEq2ivrhf9C3e_ys03BObYCXnkc-0mt7mFBQjjM5JWBZMR77Uk1X0lnE5nj28O8inJTt3l_eG4zZZ0wL55hu7Lrk8UmmU-77Q-Lw-mxwTjiasb5un6iMyrbP9aonpuJiSlx9UkgeTGhdt2Rda330jRGn9wU86uhCq_TuYDxQKI1Ek3BqfaB2oZEJnKtK2tr2CYeAG5fL8ydvDjbGjqDExf9JvXrW2ZFZddL-sMmyD9zg6hrw7HGKHO3ojFBHp5dfFkFuAlLrttOoxLiTFvmDs3R2qxz3s63VRUUS0E2oq7wO4HuzauDxIH_oF0OGVj2dn9CtxM5XnxwAMGgKYo5nMbqc9Ub7bmTixjiHhinH_im3JaI8eQKmUF1ERnuMKG3U5xUHCycEbm1GR3swmnGt9FclcPmlWaLz6NbJSfFLhN8BWa-xJJLpF9Dc-2S1JkJr9TZ73XE0d8H-IiJ-ticsiiIxIgyazZlKnBZU2TaiCpfvbUhKl0gYADf1h02P6E_BAuSJydy7x3BjC4Q8uXv53vgDsbtIorbAjsLOgvIfPjFvRaRrxSNUviUDtFgqNdH5PmKqXc1FXl_FdTNWNQjqRlNAX_yxC9tuVayYgQ-nIl32iWjivkyXEmeL&adurl=https://servedby.flashtalking.com/click/1/275018;9918620;6238603;210;0/?us_privacy=!!US_PRIVACY!&ft_partnerimpid=ABAjH0gw3o4Nh7jH0qnFHXfBZ4aq&ft_impID=2CD18A49-063B-17A8-16B1-E2F51E156B0B&g=6768F4A40D3D9C&random=231621.54961514543&ft_width=728&ft_height=90&url=https://www.adobe.com/africa/acrobat/free-trial-download.html?sdid=B8NR3JZH&mv=display&mv2=display
+                - img "Click Here" [ref=f43e5]
+              - link "AdChoices arrow" [ref=f43e7]:
+                - /url: https://www.flashtalking.com/consumer-privacy
+                - img "AdChoices arrow" [ref=f43e8]
+              - link "Privacy Notification" [ref=f43e10]:
+                - /url: https://www.flashtalking.com/consumer-privacy
+                - img [ref=f43e11]
+              - link "Privacy Notification" [ref=f43e13]:
+                - /url: https://www.flashtalking.com/consumer-privacy
+                - img [ref=f43e14]
+          - iframe
+  - generic [ref=e149]:
+    - generic [ref=e150] [cursor=pointer]:
+      - img [ref=e152]
+      - link "Go to shopping options for Polo Shirts" [ref=e154]: Polo Shirts
+    - button "Close shopping anchor" [ref=e155]
+```

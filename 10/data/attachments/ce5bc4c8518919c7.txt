@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2231001,
+    name: 'Willis',
+    email: 'Garry_Effertz@yahoo.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Ibrahim',
+    last_name: 'Quitzon',
+    company: 'Cronin, Kuhic and Bruen',
+    address1: '3326 Edna Glens',
+    address2: 'Apt. 226',
+    country: 'India',
+    state: 'Vermont',
+    city: 'Debbieside',
+    zipcode: '18053'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
