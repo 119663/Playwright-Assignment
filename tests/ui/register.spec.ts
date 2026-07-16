@@ -13,6 +13,7 @@ test("Navigate to signup page and register a new user", async ({page}) => {
     await expect(page).toHaveTitle('Automation Exercise - Signup / Login');
     await expect(page.getByText('New User Signup!')).toBeVisible();
 
+    //signup
     const signupPage = new SignupPage(page);
     const name = faker.person.firstName();
     const email = faker.internet.email();
@@ -21,7 +22,7 @@ test("Navigate to signup page and register a new user", async ({page}) => {
 
     await expect(page).toHaveTitle('Automation Exercise - Signup');
 
-
+    //fill signup form
     const fillSignupForm = new SignupForm(page);
     const password = faker.internet.password();
     const firstName = faker.person.firstName();
@@ -43,7 +44,7 @@ test("Navigate to signup page and register a new user", async ({page}) => {
     await expect(page.getByText('Logged in as ' + name)).toBeVisible();
 
 
-
+    //delete account
     const deleteAccountPage = new DeleteAccountPage(page);
     await deleteAccountPage.deleteAccount();
 

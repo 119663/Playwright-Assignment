@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test("Product tests", async ({ request }) => {
+    //get products
     const getresponse = await request.get('https://automationexercise.com/api/productsList', {
         headers: {
             'Content-Type': 'application/json',
@@ -26,7 +27,7 @@ test("Product tests", async ({ request }) => {
         expect(product.brand).toBeDefined();
     }
 
-
+    //search product
     const searchresponse = await request.post('https://automationexercise.com/api/searchProduct', {
         form: {
             search_product: 'Top',
@@ -38,7 +39,7 @@ test("Product tests", async ({ request }) => {
     expect(Array.isArray(responsebody.products)).toBe(true);
     expect(searchresponse.status()).toBe(200);
 
-
+    //post product
     const postresponse = await request.post('https://automationexercise.com/api/productsList', {
         form: {
             name: "Sundress for Women",
