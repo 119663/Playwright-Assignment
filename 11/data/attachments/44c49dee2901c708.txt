@@ -1,0 +1,23 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2223864,
+    name: 'Pete',
+    email: 'Sandrine_Lind@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'June',
+    last_name: 'Schimmel',
+    company: 'Bechtelar Inc',
+    address1: '3811 Timmy Cliffs',
+    address2: 'Apt. 863',
+    country: 'India',
+    state: 'Minnesota',
+    city: 'Axelville',
+    zipcode: '76285'
+  }
+}
