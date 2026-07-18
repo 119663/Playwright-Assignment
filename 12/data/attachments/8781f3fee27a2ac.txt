@@ -1,0 +1,6 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email parameter is missing in DELETE request.'
+}
