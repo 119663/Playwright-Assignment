@@ -1,0 +1,24 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2223882,
+    name: 'Pietro',
+    email: 'Jimmy52@hotmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Camylle',
+    last_name: 'Kunze',
+    company: 'Schmeler Inc',
+    address1: '50245 Chesley Fields',
+    address2: 'Apt. 390',
+    country: 'India',
+    state: 'Hawaii',
+    city: 'South Nadinehaven',
+    zipcode: '03248'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
