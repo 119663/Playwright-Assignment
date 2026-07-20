@@ -1,0 +1,24 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2223881,
+    name: 'Wendy',
+    email: 'Homer.Klocko6@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Junior',
+    last_name: 'Ruecker-Towne',
+    company: 'Bernier - Ebert',
+    address1: '569 Giovanna Overpass',
+    address2: 'Apt. 885',
+    country: 'India',
+    state: 'Wisconsin',
+    city: 'Pacochastad',
+    zipcode: '52541-3131'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }

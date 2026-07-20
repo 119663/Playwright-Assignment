@@ -1,0 +1,2 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 404, message: 'Account not found!' }
