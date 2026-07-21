@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2248174,
+    name: 'Owen',
+    email: 'Unique_Hegmann17@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Mamie',
+    last_name: 'McGlynn',
+    company: 'Sanford, MacGyver and Rempel-Pacocha',
+    address1: '92867 Jannie Spurs',
+    address2: 'Suite 680',
+    country: 'India',
+    state: 'Vermont',
+    city: 'San Mateo',
+    zipcode: '26607-2313'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
