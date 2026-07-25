@@ -1,0 +1,23 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2223879,
+    name: 'Erwin',
+    email: 'Dawn_Terry83@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Luis',
+    last_name: 'Daugherty-Ankunding',
+    company: 'Wisozk Inc',
+    address1: '648 Holly Close',
+    address2: 'Suite 771',
+    country: 'India',
+    state: 'Mississippi',
+    city: 'Frisco',
+    zipcode: '18388-9803'
+  }
+}
