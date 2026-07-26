@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2271487,
+    name: 'Eunice',
+    email: 'Toni_Kautzer31@yahoo.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Enrico',
+    last_name: 'Braun',
+    company: 'Cormier-Little - Lindgren',
+    address1: '5709 Derwent Close',
+    address2: 'Suite 890',
+    country: 'India',
+    state: 'Utah',
+    city: 'Hamillville',
+    zipcode: '72937-1409'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
