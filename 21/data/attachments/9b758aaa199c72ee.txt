@@ -1,0 +1,4 @@
+Name: Stanley
+Email: Chester.Fay@gmail.com
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 404, message: 'Account not found!' }
