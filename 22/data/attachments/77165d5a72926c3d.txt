@@ -1,0 +1,23 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2223884,
+    name: 'Alexander',
+    email: 'Melissa66@yahoo.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Jerald',
+    last_name: 'Stehr-Friesen',
+    company: 'Stiedemann and Sons',
+    address1: '9546 Durgan Corner',
+    address2: 'Suite 113',
+    country: 'India',
+    state: 'Mississippi',
+    city: 'Vanbury',
+    zipcode: '03081'
+  }
+}
