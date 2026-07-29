@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2329069,
+    name: 'Emilio',
+    email: 'Twila_Schoen-Rohan42@hotmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Wayne',
+    last_name: 'Block',
+    company: 'Corkery - Raynor',
+    address1: '90442 Gibson Overpass',
+    address2: 'Apt. 434',
+    country: 'India',
+    state: 'Utah',
+    city: 'Stoltenbergworth',
+    zipcode: '54198'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
