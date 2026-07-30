@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2342914,
+    name: 'Pablo',
+    email: 'Mona.Grant@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Geoffrey',
+    last_name: 'Herman',
+    company: 'Cruickshank Group',
+    address1: '9793 Market Street',
+    address2: 'Suite 614',
+    country: 'India',
+    state: 'Illinois',
+    city: 'West Goldaburgh',
+    zipcode: '30197-2572'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
