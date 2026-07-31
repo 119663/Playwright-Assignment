@@ -1,0 +1,3 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{ responseCode: 200, message: 'Account deleted!' }
