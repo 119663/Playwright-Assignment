@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2406806,
+    name: 'Dariana',
+    email: 'Dustin_Brakus13@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Cindy',
+    last_name: 'Schumm',
+    company: 'Morissette Group',
+    address1: '825 Philip Spur',
+    address2: 'Suite 756',
+    country: 'India',
+    state: 'Utah',
+    city: 'Durganville',
+    zipcode: '32582'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
