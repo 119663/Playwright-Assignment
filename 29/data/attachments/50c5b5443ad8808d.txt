@@ -1,0 +1,4 @@
+Name: Sheldon
+Email: Gilda98@yahoo.com
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 404, message: 'Account not found!' }
