@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2442462,
+    name: 'Viola',
+    email: 'Cristina59@hotmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Eugenia',
+    last_name: 'Runolfsson',
+    company: 'Koelpin LLC',
+    address1: '7718 Howe Roads',
+    address2: 'Suite 962',
+    country: 'India',
+    state: 'Florida',
+    city: 'Morissette-Keelingmouth',
+    zipcode: '14240-4029'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
