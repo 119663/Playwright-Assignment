@@ -1,0 +1,6 @@
+Status: 200
+URL: https://automationexercise.com/api/createAccount
+Body: {"responseCode": 201, "message": "User created!"}
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{ responseCode: 200, message: 'Account deleted!' }
