@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2587751,
+    name: 'Jalen',
+    email: 'Dan.Goyette@hotmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Lawson',
+    last_name: 'Bergstrom',
+    company: 'Hammes LLC',
+    address1: '34244 Simonis Orchard',
+    address2: 'Apt. 853',
+    country: 'India',
+    state: 'Iowa',
+    city: 'Heidenreichhaven',
+    zipcode: '19820'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
