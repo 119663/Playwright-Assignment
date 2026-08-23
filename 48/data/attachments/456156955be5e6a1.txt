@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2590310,
+    name: 'Aiyana',
+    email: 'Conrad_Swift-Kertzmann@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Hilton',
+    last_name: 'Halvorson',
+    company: 'Krajcik - Fay',
+    address1: '70592 Henry Street',
+    address2: 'Apt. 291',
+    country: 'India',
+    state: 'Nebraska',
+    city: 'Pomona',
+    zipcode: '41511'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }

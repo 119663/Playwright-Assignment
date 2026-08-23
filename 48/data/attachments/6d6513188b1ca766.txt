@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2590318,
+    name: 'Ernestine',
+    email: 'Casandra.Quitzon54@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Kyle',
+    last_name: 'Moen',
+    company: 'Champlin - Kutch',
+    address1: '73344 Dolores Forks',
+    address2: 'Apt. 653',
+    country: 'India',
+    state: 'Mississippi',
+    city: 'Bogancester',
+    zipcode: '08051-2936'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
