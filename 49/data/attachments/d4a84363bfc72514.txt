@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2599911,
+    name: 'Tim',
+    email: 'Ginger_King@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Betty',
+    last_name: 'Bailey',
+    company: 'Berge - Satterfield',
+    address1: '974 Clarendon Road',
+    address2: 'Apt. 439',
+    country: 'India',
+    state: 'Oregon',
+    city: 'Lake Virgie',
+    zipcode: '97895-2279'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }

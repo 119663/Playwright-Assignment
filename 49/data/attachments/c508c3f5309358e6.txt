@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2599916,
+    name: 'Eddie',
+    email: 'Darryl74@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Patrick',
+    last_name: 'Rohan',
+    company: 'Champlin, Renner and Kassulke',
+    address1: '14724 The Crescent',
+    address2: 'Suite 943',
+    country: 'India',
+    state: 'Utah',
+    city: 'New Almachester',
+    zipcode: '31961-0904'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
