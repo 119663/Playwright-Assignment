@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2610484,
+    name: 'Eugene',
+    email: 'Ebony.Grimes@hotmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Marlen',
+    last_name: 'Hamill',
+    company: 'Welch - Stanton',
+    address1: '62427 Paucek Gateway',
+    address2: 'Suite 349',
+    country: 'India',
+    state: 'Delaware',
+    city: 'Port Ralph',
+    zipcode: '20346'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
