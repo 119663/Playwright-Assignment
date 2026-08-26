@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2620680,
+    name: 'Antwan',
+    email: 'Werner18@hotmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Aurore',
+    last_name: 'Fadel',
+    company: 'Sauer - Gottlieb',
+    address1: '5384 Taryn Route',
+    address2: 'Suite 277',
+    country: 'India',
+    state: 'Massachusetts',
+    city: 'Port Warren',
+    zipcode: '30537-4733'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
