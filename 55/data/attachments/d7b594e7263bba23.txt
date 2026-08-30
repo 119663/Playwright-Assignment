@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2660308,
+    name: 'Ofelia',
+    email: 'Kaelyn82@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Pattie',
+    last_name: 'Konopelski',
+    company: 'Heaney Inc',
+    address1: '62763 Birch Close',
+    address2: 'Suite 605',
+    country: 'India',
+    state: 'North Carolina',
+    city: 'Cutler Bay',
+    zipcode: '55051'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
