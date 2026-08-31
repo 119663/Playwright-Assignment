@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2671876,
+    name: 'Beatrice',
+    email: 'Agnes_Sporer@yahoo.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Zelda',
+    last_name: 'Deckow',
+    company: 'Langworth - Boehm',
+    address1: '513 W 7th Street',
+    address2: 'Suite 618',
+    country: 'India',
+    state: 'Mississippi',
+    city: 'North Richie',
+    zipcode: '28707'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
