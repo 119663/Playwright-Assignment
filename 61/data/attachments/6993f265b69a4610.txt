@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2721272,
+    name: 'Frederick',
+    email: 'Marsha_Ruecker71@hotmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Jocelyn',
+    last_name: 'Kozey',
+    company: 'Boehm, Prosacco and Rodriguez',
+    address1: "95414 King's Road",
+    address2: 'Apt. 767',
+    country: 'India',
+    state: 'Georgia',
+    city: 'South Marlenehaven',
+    zipcode: '49112-6569'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
