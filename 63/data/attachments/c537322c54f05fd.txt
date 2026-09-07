@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2734258,
+    name: 'Erick',
+    email: 'Mckenzie.Kuvalis@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Aubrey',
+    last_name: 'Welch',
+    company: 'Padberg - Hamill',
+    address1: '350 N College Street',
+    address2: 'Apt. 558',
+    country: 'India',
+    state: 'Maine',
+    city: 'Wisozkfield',
+    zipcode: '38408-6753'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
