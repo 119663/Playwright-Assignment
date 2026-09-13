@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2786220,
+    name: 'Dayana',
+    email: 'Bernice.Funk86@yahoo.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Clarabelle',
+    last_name: 'Ferry-McKenzie',
+    company: 'Cremin Group',
+    address1: '24095 Block Bridge',
+    address2: 'Apt. 974',
+    country: 'India',
+    state: 'Delaware',
+    city: 'Schultzborough',
+    zipcode: '99159-8321'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
