@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2796479,
+    name: 'Buster',
+    email: 'Freida_Hartmann@yahoo.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Rosalie',
+    last_name: 'Dickens',
+    company: 'Lindgren, Mraz and Corwin',
+    address1: '4862 Ruecker Greens',
+    address2: 'Suite 608',
+    country: 'India',
+    state: 'Florida',
+    city: 'Peoria',
+    zipcode: '20934-6394'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
