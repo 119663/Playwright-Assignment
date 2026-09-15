@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2809034,
+    name: 'Nicolette',
+    email: 'Shaun_Watsica@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Ignacio',
+    last_name: 'Nitzsche',
+    company: 'Leannon, Collins and Cassin',
+    address1: '40772 E Water Street',
+    address2: 'Apt. 411',
+    country: 'India',
+    state: 'Missouri',
+    city: 'Buffalo Grove',
+    zipcode: '44855'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
