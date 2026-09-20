@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2858145,
+    name: 'Florence',
+    email: 'Maynard.Hand@hotmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Sheila',
+    last_name: 'Skiles',
+    company: 'Schamberger - Wilkinson',
+    address1: '9378 E Elm Street',
+    address2: 'Suite 601',
+    country: 'India',
+    state: 'Michigan',
+    city: 'Oliviastad',
+    zipcode: '55303'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
