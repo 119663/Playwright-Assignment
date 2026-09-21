@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2869256,
+    name: 'Erin',
+    email: 'Candice_Sawayn33@hotmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Jadon',
+    last_name: 'Pacocha',
+    company: 'Kassulke, Kuhn and Fritsch-Kuhn',
+    address1: '1340 Rau Viaduct',
+    address2: 'Apt. 182',
+    country: 'India',
+    state: 'Minnesota',
+    city: 'Yonkers',
+    zipcode: '23413'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
