@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2881208,
+    name: 'Margot',
+    email: 'Theodore83@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Mozell',
+    last_name: 'Stark',
+    company: 'Hirthe LLC',
+    address1: '89741 Rhea Drives',
+    address2: 'Apt. 703',
+    country: 'India',
+    state: 'Delaware',
+    city: 'Botsfordfurt',
+    zipcode: '61558-6940'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
