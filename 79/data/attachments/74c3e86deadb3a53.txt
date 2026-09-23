@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2892380,
+    name: 'Tyrique',
+    email: 'Dock_McDermott2@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Elias',
+    last_name: 'Wisozk',
+    company: 'Mohr, Shanahan and Barrows',
+    address1: '1594 Sandy Spurs',
+    address2: 'Suite 658',
+    country: 'India',
+    state: 'New Jersey',
+    city: 'Nathanberg',
+    zipcode: '97791-6935'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
