@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2918903,
+    name: 'Salvatore',
+    email: 'Delbert_Jakubowski94@yahoo.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Emiliano',
+    last_name: 'Dickens',
+    company: 'Ritchie - Luettgen',
+    address1: '98802 Clifton Ports',
+    address2: 'Suite 469',
+    country: 'India',
+    state: 'Texas',
+    city: 'Muncie',
+    zipcode: '42185-5747'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }

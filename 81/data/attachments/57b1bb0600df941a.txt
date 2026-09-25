@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2918866,
+    name: 'Cara',
+    email: 'Julia.Ferry88@hotmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Camilla',
+    last_name: 'Dickinson',
+    company: 'Walsh - Langosh',
+    address1: '494 Tromp Camp',
+    address2: 'Suite 135',
+    country: 'India',
+    state: 'Idaho',
+    city: 'Haleychester',
+    zipcode: '41810'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
