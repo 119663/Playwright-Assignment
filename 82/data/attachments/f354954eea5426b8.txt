@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2928516,
+    name: 'Judd',
+    email: 'Kendrick_Kemmer@yahoo.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Holden',
+    last_name: 'Kuphal',
+    company: 'Hermann - Bednar',
+    address1: '224 Gibson Cove',
+    address2: 'Apt. 145',
+    country: 'India',
+    state: 'Wisconsin',
+    city: 'North Keshawn',
+    zipcode: '93131'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
