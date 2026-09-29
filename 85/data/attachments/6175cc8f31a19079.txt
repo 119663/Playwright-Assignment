@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2955403,
+    name: 'Alexander',
+    email: 'Carlo.Quitzon-Goyette@hotmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Meghan',
+    last_name: 'Balistreri',
+    company: 'Franecki - Kessler',
+    address1: '5142 Waters Fall',
+    address2: 'Suite 792',
+    country: 'India',
+    state: 'Indiana',
+    city: 'Port Lorine',
+    zipcode: '37888-3600'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
