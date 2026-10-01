@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 2967376,
+    name: 'Salvador',
+    email: 'Marjolaine_Hoeger22@hotmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Nova',
+    last_name: 'Sporer',
+    company: 'Flatley, Heaney and Lowe-Langworth',
+    address1: '88995 S 14th Street',
+    address2: 'Apt. 382',
+    country: 'India',
+    state: 'Tennessee',
+    city: 'New Ellacester',
+    zipcode: '32966'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
