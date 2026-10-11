@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3022719,
+    name: 'Helmer',
+    email: 'Eleanor65@yahoo.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Makenna',
+    last_name: 'Johnson',
+    company: 'Bauch, Dooley and Fahey',
+    address1: '4542 E Bridge Street',
+    address2: 'Apt. 704',
+    country: 'India',
+    state: 'South Carolina',
+    city: 'Fort Christiefort',
+    zipcode: '34553'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }

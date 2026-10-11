@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3022707,
+    name: 'Javier',
+    email: 'Antonia99@yahoo.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Cicero',
+    last_name: 'Kertzmann',
+    company: 'Purdy Group',
+    address1: '6128 Bauch Loop',
+    address2: 'Suite 938',
+    country: 'India',
+    state: 'Tennessee',
+    city: 'Lisaborough',
+    zipcode: '36386-9933'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
