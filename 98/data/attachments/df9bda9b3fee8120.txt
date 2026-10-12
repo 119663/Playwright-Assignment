@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3029453,
+    name: 'Andy',
+    email: 'Michele4@hotmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Pearlie',
+    last_name: 'Goodwin',
+    company: 'Kuhn, Rolfson and Funk',
+    address1: '75991 Schneider Passage',
+    address2: 'Suite 325',
+    country: 'India',
+    state: 'Utah',
+    city: 'South Lisa',
+    zipcode: '25180'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
