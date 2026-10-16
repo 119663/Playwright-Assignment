@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3056934,
+    name: 'Rose',
+    email: 'Lana34@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Garret',
+    last_name: 'Rice',
+    company: 'Wunsch-Rippin - Stroman',
+    address1: '73065 Bednar-Hickle Valley',
+    address2: 'Apt. 530',
+    country: 'India',
+    state: 'Nevada',
+    city: 'Fort Juddland',
+    zipcode: '35600-5366'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
