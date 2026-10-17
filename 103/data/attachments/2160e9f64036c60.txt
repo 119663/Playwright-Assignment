@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3062893,
+    name: 'Neil',
+    email: 'Natalie_Morissette@yahoo.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Ludwig',
+    last_name: 'Simonis',
+    company: 'Renner, Rowe and Reynolds',
+    address1: '3790 Selena Trace',
+    address2: 'Suite 734',
+    country: 'India',
+    state: 'New York',
+    city: 'Caesarcester',
+    zipcode: '58533-9772'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
