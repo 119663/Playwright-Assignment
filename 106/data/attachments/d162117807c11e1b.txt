@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3084284,
+    name: 'Amelie',
+    email: 'Lily_Reilly@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Alden',
+    last_name: 'Wintheiser',
+    company: 'Breitenberg Inc',
+    address1: '501 Kertzmann Bridge',
+    address2: 'Apt. 965',
+    country: 'India',
+    state: 'Nebraska',
+    city: 'East Marc',
+    zipcode: '32449-4081'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
