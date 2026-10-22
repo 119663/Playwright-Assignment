@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3095308,
+    name: 'Creola',
+    email: 'Grant_Hamill@hotmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Chester',
+    last_name: 'Lemke',
+    company: 'Bruen, Turner and Reynolds',
+    address1: '3663 Heath Road',
+    address2: 'Apt. 477',
+    country: 'India',
+    state: 'Mississippi',
+    city: 'Palm Bay',
+    zipcode: '41280-4131'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
