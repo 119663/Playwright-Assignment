@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3101567,
+    name: 'Violet',
+    email: 'Amelia.Pagac56@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Alize',
+    last_name: 'Ryan-Harber',
+    company: 'Kautzer Inc',
+    address1: '648 Clementine Keys',
+    address2: 'Apt. 550',
+    country: 'India',
+    state: 'Arkansas',
+    city: 'Port Ellis',
+    zipcode: '34141-6295'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
