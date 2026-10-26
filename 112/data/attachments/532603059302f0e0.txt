@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3116895,
+    name: 'Jessica',
+    email: 'Mark_Pouros@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Olga',
+    last_name: 'Cruickshank',
+    company: 'Bins Inc',
+    address1: '204 Funk Manor',
+    address2: 'Suite 570',
+    country: 'India',
+    state: 'Massachusetts',
+    city: 'Morissettestead',
+    zipcode: '08746-3488'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }

@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3116905,
+    name: 'Josefa',
+    email: 'Lily.Cummings81@hotmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Flossie',
+    last_name: 'Thiel',
+    company: "O'Keefe LLC",
+    address1: '1825 Ash Grove',
+    address2: 'Suite 775',
+    country: 'India',
+    state: 'Nevada',
+    city: 'North Marjorie',
+    zipcode: '51543-9398'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
