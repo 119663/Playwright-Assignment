@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3123554,
+    name: 'Wendell',
+    email: 'Nadine.Weber@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Twila',
+    last_name: 'Zieme',
+    company: 'Koepp and Sons',
+    address1: '8422 Bashirian Forest',
+    address2: 'Suite 187',
+    country: 'India',
+    state: 'North Carolina',
+    city: 'Deannaland',
+    zipcode: '32458-0662'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
