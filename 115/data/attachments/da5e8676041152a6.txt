@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3136303,
+    name: 'Gillian',
+    email: 'Brandy.Fahey@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Troy',
+    last_name: 'Hills',
+    company: 'Lakin, Weissnat and Tillman',
+    address1: '60228 Windsor Avenue',
+    address2: 'Apt. 362',
+    country: 'India',
+    state: 'Tennessee',
+    city: 'Pamelaberg',
+    zipcode: '05455-3639'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
