@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3155098,
+    name: 'Yazmin',
+    email: 'Ira.Breitenberg11@yahoo.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Anthony',
+    last_name: 'Bauch',
+    company: "Schiller, D'Amore and Okuneva",
+    address1: '655 Wilton Fort',
+    address2: 'Suite 142',
+    country: 'India',
+    state: 'Washington',
+    city: 'DuBuquefield',
+    zipcode: '79081'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
