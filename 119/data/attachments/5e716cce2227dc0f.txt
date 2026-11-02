@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3161968,
+    name: 'Marianna',
+    email: 'Leah38@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Destinee',
+    last_name: 'Pfannerstill',
+    company: 'Konopelski - Gibson',
+    address1: '35895 S Broadway',
+    address2: 'Apt. 856',
+    country: 'India',
+    state: 'Vermont',
+    city: 'Port Charlotte',
+    zipcode: '46137'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
