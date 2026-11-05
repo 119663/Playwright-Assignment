@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3179380,
+    name: 'Denise',
+    email: 'Dianne_Abshire-Beahan@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Michelle',
+    last_name: 'Parisian',
+    company: 'Beatty, Bernhard and Pagac',
+    address1: '156 Edmund Drive',
+    address2: 'Suite 110',
+    country: 'India',
+    state: 'Texas',
+    city: 'Fort Judyborough',
+    zipcode: '81908'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }

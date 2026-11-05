@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3179389,
+    name: 'Anais',
+    email: 'Aidan45@hotmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Marilyne',
+    last_name: 'Larson',
+    company: 'Reinger - Balistreri',
+    address1: '8273 McClure Corner',
+    address2: 'Suite 895',
+    country: 'India',
+    state: 'Connecticut',
+    city: 'Lake Bonnieborough',
+    zipcode: '47189'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
