@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3186144,
+    name: 'Felton',
+    email: 'Dulce20@hotmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Lionel',
+    last_name: 'Heaney',
+    company: 'Hamill, Beahan and Luettgen',
+    address1: '7066 Marlborough Road',
+    address2: 'Suite 521',
+    country: 'India',
+    state: 'Kentucky',
+    city: 'South Carlton',
+    zipcode: '20780-6345'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }

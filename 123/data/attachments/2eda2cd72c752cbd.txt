@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3186139,
+    name: 'Pam',
+    email: 'Laney96@yahoo.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Dewey',
+    last_name: 'Feest',
+    company: 'Windler - Cole',
+    address1: '525 Runolfsson Rapids',
+    address2: 'Apt. 244',
+    country: 'India',
+    state: 'Louisiana',
+    city: 'Boyleborough',
+    zipcode: '21642'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
