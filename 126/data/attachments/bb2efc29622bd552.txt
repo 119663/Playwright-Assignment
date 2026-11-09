@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3199799,
+    name: 'Houston',
+    email: 'Wilbert_Crona95@yahoo.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Ronald',
+    last_name: 'Grady',
+    company: 'Green, Smitham and Abernathy',
+    address1: '1264 Thompson Hills',
+    address2: 'Apt. 446',
+    country: 'India',
+    state: 'Louisiana',
+    city: 'Bauchport',
+    zipcode: '85540'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }

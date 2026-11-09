@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3199821,
+    name: 'Wendell',
+    email: 'Kent.Cremin@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Tracy',
+    last_name: 'Marvin',
+    company: 'Bosco and Sons',
+    address1: '73982 Gerlach Estate',
+    address2: 'Suite 226',
+    country: 'India',
+    state: 'Louisiana',
+    city: 'Glen Burnie',
+    zipcode: '71217-0595'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
