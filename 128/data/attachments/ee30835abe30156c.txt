@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3212763,
+    name: 'Jorge',
+    email: 'Bridie42@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Carla',
+    last_name: 'Mueller',
+    company: 'Sipes - Mitchell',
+    address1: '867 Dietrich Way',
+    address2: 'Apt. 883',
+    country: 'India',
+    state: 'Kentucky',
+    city: 'Lake Elsinore',
+    zipcode: '91272'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
