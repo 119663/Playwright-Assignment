@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3241308,
+    name: 'Marta',
+    email: 'Susie45@yahoo.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Jesus',
+    last_name: 'Williamson',
+    company: 'Wunsch, Kiehn and Johnston',
+    address1: '1846 Shawna Alley',
+    address2: 'Suite 489',
+    country: 'India',
+    state: 'North Dakota',
+    city: 'Johnborough',
+    zipcode: '39233-9979'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
