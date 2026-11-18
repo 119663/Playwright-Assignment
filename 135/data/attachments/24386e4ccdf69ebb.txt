@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3256428,
+    name: 'Carolyn',
+    email: 'Theresa_Bahringer41@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Angelina',
+    last_name: 'Parker',
+    company: 'Schamberger, Funk and Ritchie',
+    address1: '7940 The Fairway',
+    address2: 'Apt. 623',
+    country: 'India',
+    state: 'Mississippi',
+    city: 'Edina',
+    zipcode: '82901'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
