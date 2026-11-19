@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3261215,
+    name: 'Geoffrey',
+    email: 'Elton.Thompson38@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Darrick',
+    last_name: 'Krajcik',
+    company: 'Koch - Lowe',
+    address1: '1917 Roger Ridge',
+    address2: 'Apt. 583',
+    country: 'India',
+    state: 'South Carolina',
+    city: 'Irvinborough',
+    zipcode: '50836-5971'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
