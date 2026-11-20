@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3267052,
+    name: 'Milton',
+    email: 'Melba58@yahoo.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Ruby',
+    last_name: 'Walker',
+    company: 'Bins - Collier',
+    address1: '78896 Archie Falls',
+    address2: 'Apt. 750',
+    country: 'India',
+    state: 'Arizona',
+    city: 'Daviscester',
+    zipcode: '93655'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
