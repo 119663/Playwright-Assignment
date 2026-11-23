@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3284030,
+    name: 'Stacey',
+    email: 'Tom.Rippin0@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Jabari',
+    last_name: 'Leannon',
+    company: 'Lind, Halvorson and Waelchi',
+    address1: '45169 Velda View',
+    address2: 'Suite 530',
+    country: 'India',
+    state: 'Nevada',
+    city: 'Jeraldboro',
+    zipcode: '39523'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
