@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3301547,
+    name: 'Xander',
+    email: 'Reymundo.Jast65@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Merritt',
+    last_name: 'McDermott',
+    company: 'Simonis, Anderson and Huel',
+    address1: '69403 Ebony Meadow',
+    address2: 'Apt. 873',
+    country: 'India',
+    state: 'Washington',
+    city: 'Garyhaven',
+    zipcode: '36189-4478'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
