@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3308830,
+    name: 'Lilliana',
+    email: 'Taylor58@yahoo.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Royal',
+    last_name: 'Leuschke',
+    company: 'Erdman Group',
+    address1: '80963 Ella Union',
+    address2: 'Apt. 377',
+    country: 'India',
+    state: 'North Carolina',
+    city: 'New Peterchester',
+    zipcode: '90171'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }

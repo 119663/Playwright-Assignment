@@ -1,0 +1,30 @@
+{ responseCode: 201, message: 'User created!' }
+{ responseCode: 200, message: 'User updated!' }
+{
+  responseCode: 200,
+  user: {
+    id: 3308792,
+    name: 'Patricia',
+    email: 'Ricardo45@gmail.com',
+    title: 'Mr',
+    birth_day: '10',
+    birth_month: 'May',
+    birth_year: '1990',
+    first_name: 'Bernadine',
+    last_name: 'Ferry',
+    company: 'Herman Group',
+    address1: '9687 Alexa Trace',
+    address2: 'Apt. 801',
+    country: 'India',
+    state: 'Maine',
+    city: 'Port Arvilla',
+    zipcode: '34382-3737'
+  }
+}
+{ responseCode: 200, message: 'User exists!' }
+{ responseCode: 404, message: 'User not found!' }
+{
+  responseCode: 400,
+  message: 'Bad request, email or password parameter is missing in POST request.'
+}
+{ responseCode: 200, message: 'Account deleted!' }
